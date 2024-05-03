@@ -1,0 +1,51 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+}
+
+body{
+        background-color: wheat;
+}
+
+.header{
+        font-size: 1rem;
+        background-image: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        padding-top: 10px;
+}
+
+.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.turn{
+        padding: 15px;
+        font-size: 1.5rem;
+}
+
+.row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.items{
+        border: 1px solid black;
+        height: 75px;
+        width: 75px;
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+}
+
+.items:hover{
+        background-color:rgb(243, 242, 242);
+}
